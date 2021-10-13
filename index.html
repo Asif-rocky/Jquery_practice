@@ -30,7 +30,7 @@
     <hr>
     <div class="container-1">
         <div id="tabs">
-            <ul>
+            <ul id="tabs-ul">
                 <li><a href="#tabs-1">Challenge 1</a></li>
                 <li><a href="#tabs-2">Challenge 2</a></li>
                 <li><a href="#tabs-3">Challenge 3</a></li>
@@ -51,8 +51,15 @@
                 <li>try the above.... IT WORKS</li>
             </ol>
         </div>
-        <button class="btn btn-success btn-" style="margin:5px;"> Add a new challenge</button>
-        <button class="btn btn-warning btn-" style="margin:5px;"> Add a new task</button>
+        <button id="btn-challenge" class="btn btn-success btn-" style="margin:5px;">
+            Add a new challenge</button>
+        <button id="btn-task" class="btn btn-warning btn-" style="margin:5px;">
+            Add a new task</button>
+
+        <div id="button-dialog" title="please type ur challenge" style="display: none;">
+            <label for="challengeName">Challenge Name:</label>
+            <input id="inpt" type="text" style="margin: 2px;">
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
