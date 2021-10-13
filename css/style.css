@@ -8,4 +8,15 @@
   height: 500px;
   border: 3px solid rgb(214, 202, 30);
   margin: auto;
+  padding: 10px;
+}
+ol li {
+  border: 2px dotted black;
+  padding: 5px;
+  margin: 5px;
+}
+
+#tabs ul {
+  height: 50px;
+  margin-left: 2px;
 }
